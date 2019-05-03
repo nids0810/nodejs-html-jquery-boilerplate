@@ -1,4 +1,5 @@
-# html-nodejs
+# Node JS HTML JQuery Demo #
+
 Build a HTML website with Node.js, Parcel, Javascript &amp; JQuery
 
 Go inside a newly created folder
