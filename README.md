@@ -21,4 +21,4 @@ yarn watch
 ```
 5. Open the localhost mentioned in the termial to view the website live.
 
-To learn how to build this project from scratch, check out my medium blog [Coming Soon](https://medium.com/@vipl0ve).
+To learn how to build this project from scratch, check out my medium blog which is [coming soon](https://medium.com/@vipl0ve).
