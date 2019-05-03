@@ -1,21 +1,24 @@
-# Node JS HTML JQuery Demo #
+# Node JS HTML JQuery Boilerplate #
 
-Build a HTML website with Node.js, Parcel, Javascript &amp; JQuery
+Use this teamplate as a boilerplate to build a dynamic HTML website using Node.js, Javascript, Jquery and scss using the Parcel builder in just five simple steps.
 
-Go inside a newly created folder
-``mkdir demo-folder``
-``cd demo-folder``
+1. Clone the git repo. This will add all the necesary files including the website file under `src` folder
+```
+git clone https://github.com/vipl0ve/nodejs-html-jquery-boilerplate.git
+cd nodejs-html-jquery-boilerplate
+```
+2. Run Yarn to install all dependencies
+```
+yarn
+```
+3. Build the website using `yarn build`. This should create a `dest` folder and all projects files dynamically 
+```
+yarn build
+```
+4. Create server. This will create a localserver to host the website. This will also watch and update any changes made in the src folder.
+```
+yarn watch
+```
+5. Open the localhost mentioned in the termial to view the website live.
 
-Initiate yarn project
-yarn init -y  //-y will initiate the project with default parameters
-
-This creates a new package.json file in your project directory.
-
-Now, create a HTML file and all the following code
-
-nano index.html
-
-
-
-
-
+To learn how to build this project from scratch, check out my medium blog [Coming Soon](https://medium.com/@vipl0ve).
