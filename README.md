@@ -19,6 +19,11 @@ yarn build
 ```
 yarn watch
 ```
-5. Open the localhost mentioned in the termial to view the website live.
+5. Open the localhost mentioned in the termial to view the website live. For example - 
+```
+$ parcel src/index.html
+Server running at http://localhost:1234 
+✨  Built in 2.30s.
+```
 
 To learn how to build this project from scratch, check out my medium blog which is [coming soon](https://medium.com/@vipl0ve).
