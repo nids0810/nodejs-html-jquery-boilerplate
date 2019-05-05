@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Node JS - HTML DEMO</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./style/style.scss" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id="message"></div>
-    <div>
-      <Label>Enter Name: <input type="text" id="user-name" /></Label>
-      <button id="greet-user">Enter</button>
-    </div>
-    
-    <div>
-      <button id="show-time">Current Time</button>
-      <p id="current-time"></p>
-    </div>
-    <script type="text/javascript" src="./js/index.js"></script>
-  </body>
+
+<head>
+  <title>Node JS - HTML DEMO</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./style/style.scss" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <div id="message"></div>
+  <div class="col-md-10">
+    <Label>Enter Name: <input type="text" id="user-name" /></Label>
+    <button id="greet-user" class="btn btn-primary btn-sm">Enter</button>
+  </div>
+
+  <div>
+    <button id="show-time">Current Time</button>
+    <p id="current-time"></p>
+  </div>
+
+  <div>
+    <Label>Enter Number: <input type="number" id="num" /></Label>
+    <button id="num-sq">Enter</button>
+    <p id="result"></p>
+  </div>
+  <script type="text/javascript" src="./js/index.js"></script>
+  <script language="javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>

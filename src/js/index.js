@@ -1,4 +1,5 @@
 import $ from "jquery";
+import { square } from './lib';
 
 // default message on the page
 $("#message").text("Hello User!");
@@ -12,4 +13,9 @@ $("#greet-user").click(function() {
 // Show current time
 $("#show-time").click(function() {
   $("#current-time").text(new Date());
+});
+
+// Show square of a number
+$("#num-sq").click(function(){
+  $("#result").text(square($("#num").val()));
 });
